@@ -569,7 +569,7 @@
 
 }
 
-getSpeciesSimple <- function() {
+getSpecies <- function() {
   library(jsonlite)
   library(plyr)
   library(RCurl)
