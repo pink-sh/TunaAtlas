@@ -578,7 +578,7 @@ getSpecies <- function() {
   query <- "select
     x3a_code as id,
     english_name as name,
-    scientific_name as scientific_name,
+    scientific_name as scientific_name
     from species.species_asfis
       where x3a_code in (select distinct(id_species_standard) from tunaatlas.catches_ird_rf1_labels)
     order by english_name"
