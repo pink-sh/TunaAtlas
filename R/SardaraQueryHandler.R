@@ -609,7 +609,6 @@ getDataByFilters <- function(
 ) {
     library("RPostgreSQL")
     library(jsonlite)
-  TimeStart = "2010-01-01"
     variable_to_group_by<-"area,time"  # {gear,flag,schooltype,species,NULL,area,time  or combination of all}
     DataSource<-"NULL"
 
