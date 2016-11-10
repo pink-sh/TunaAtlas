@@ -1,6 +1,6 @@
-Package: SardaraQueryHandler
+Package: TunaAtlas
 Type: Package
-Title: SardaraQueryHandler
+Title: TunaAtlas
 Version: 0.1.0
 Author: Enrico Anello / Paul Taconet
 Maintainer: Enrico Anello / Paul Taconet
@@ -8,6 +8,3 @@ Description: Query the sardara database
 License: GPL
 Encoding: UTF-8
 LazyData: true
-Imports:
-    RPostgreSQL,
-    jsonlite
